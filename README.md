@@ -40,3 +40,34 @@ deploy-engine/
     ├── tailwind.config.ts # Tailwind styling configuration
     ├── next.config.mjs    # Next.js config (Turbopack root setup)
     └── package.json       # Frontend dependencies
+
+```
+
+## 🚀 Getting Started
+#### 1. Clone the repository
+```Bash
+git clone <your-repo-url>
+cd deploy-engine
+```
+
+#### 2. Start the Backend API
+Open a terminal in the root directory and install the backend dependencies.
+
+```Bash
+npm install
+node index.js
+```
+The API will start running on `http://localhost:8080`.
+
+#### 3. Start the Frontend Dashboard
+Open a second terminal window, navigate to the frontend directory, and start the Next.js development server.
+
+```Bash
+cd frontend
+npm install
+npm run dev
+```
+The Dashboard will start running on `http://localhost:3000`.
+
+#### 4. Deploy your first app
+Open your browser to `http://localhost:3000`. In the "Deploy New Service" section, enter nginx:alpine and click Deploy. Once finished, click the Live Link ↗ to view your running server!
