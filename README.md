@@ -55,7 +55,7 @@ Open a terminal in the root directory and install the backend dependencies.
 
 ```Bash
 npm install
-node index.js
+node server.js
 ```
 The API will start running on `http://localhost:8080`.
 
